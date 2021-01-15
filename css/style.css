@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+::selection {
+  background:#c1928b;
+    color:#fff;/* WebKit/Blink Browsers */
+}
+::-moz-selection {
+   background:#c1928b;
+    color:#fff;/* Gecko Browsers */
+}
+*{
+    box-sizing: border-box;
+}
+::selection {
+  background:#c1928b;
+    color:#fff;/* WebKit/Blink Browsers */
+}
+::-moz-selection {
+   background:#c1928b;
+    color:#fff;/* Gecko Browsers */
+}
+.banner{
+    background-image: url(../images/banner1.jpg);
+    background-repeat: no-repeat;
+    height: 660px;
+    background-size: cover;
+}
+
+nav{
+    padding: 0;
+    margin: 0;
+}
+.jumbotron-header {
+    
+    padding: 10px 0px;
+}
+.navLink{
+   font-family: 'Montserrat', sans-serif;
+   color: #ffffff;
+   font-size: 15px;
+   text-decoration: none;
+}
+.navLink:hover{
+   text-decoration: none; 
+   color: #00b59f;
+}
+.active1{
+   color: #00b59f;  
+}
+.jumbotron-footer{
+   background:#060506 !important;
+	border-radius: 0px !important;
+	background-repeat: no-repeat;
+    background-size: cover;
+	text-align:left;
+	padding: 100px 0px 40px 0px !important;
+    margin: 0px;
+}
+.footer-heading{
+	color: #fff;
+	font-size:16px;
+	text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+	 font-family: 'Montserrat', sans-serif;
+ 
+}
+.footer-links{
+	color: #eee;
+	font-size:14px;
+	text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 8px 0px 8px 0px;
+    line-height: 32px !important;
+}
+.footer-links:hover{
+	color: #fff !important;
+    text-decoration: none;
+}
+.footer-social-icon{
+    color: #fff;
+    font-size: 15px;
+}
+.logo{
+     color: #00b59f !important;
+     font-weight: bold;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 26px;
+     letter-spacing: 2px;
+}
+.topPadding{
+    position: relative;
+    top: 90px;
+}
+.bigHeading{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 58px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+}
+.consulButton{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #00b59f;
+    padding: 12px 19px;
+    font-weight: bold;
+}
+.consulButton:hover{
+    border: 2px solid  #00b59f;
+    background-color: transparent;
+    color: #ffffff;
+    text-decoration: none;
+}
+.bannerSide{
+   background-color: #99fff3;
+   height: 659px;
+   width: 100%;
+   margin-top: -124px;
+}
+.logoCnt{
+    margin-top: 57px;
+    margin-left: 134px;
+}
+.topM{
+    margin-top: 180px;
+}
+
+
+
+/* Extra small devices (phones, 300px and down)  start*/
+@media only screen and (max-width: 300px) {
+   
+    
+}
+
+
+/* Extra small devices (phones, 320px and down)  start */
+@media only screen and (max-width: 320px) {
+ .banner{
+        height: 560px !important;
+    }
+    .bigHeading{
+        font-size: 22px !important;
+    }
+   
+
+}
+
+
+/* Medium devices ( 767px and down) start */
+@media only screen and (max-width: 767px){ 
+   
+    .banner{
+        height: 520px;
+    }
+    
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up)  start*/
+@media only screen and (min-width: 768px) {
+    .colorBack{
+        height: auto;
+    }
+    
+}
+    
+
+/* Medium devices ( 768px and down) start */
+@media only screen and (max-width: 768px){ 
+    .bigHeading{
+        font-size: 30px;
+    }
+    .navLink{
+      padding: 0px 7px;     
+    }
+   
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up)  start*/
+@media only screen and (min-width: 992px) {
+ .navLink{
+    padding: 0px 7px;     
+  }
+ 
+    
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up)  start*/
+@media only screen and (min-width: 1200px) {
+.navLink{
+    padding: 0px 14px;     
+  }
+ 
+}
