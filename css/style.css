@@ -88,13 +88,9 @@ nav{
      font-size: 26px;
      letter-spacing: 2px;
 }
-.topPadding{
-    position: relative;
-    top: 90px;
-}
 .bigHeading{
     font-family: 'Montserrat', sans-serif;
-    color: #ffffff;
+    color: #000000;
     font-size: 58px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -114,7 +110,7 @@ nav{
 .consulButton:hover{
     border: 2px solid  #00b59f;
     background-color: transparent;
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
 }
 .bannerSide{
@@ -130,6 +126,54 @@ nav{
 .topM{
     margin-top: 180px;
 }
+.greyBack{
+   background-color: #f2f2f2;
+    padding: 40px 0px;
+}
+.serviceHead{
+   font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.subHeading1Grey{
+   color:  #666666;
+    letter-spacing: 0px;
+    font-size: 15px;
+    text-transform:capitalize;
+    font-family: 'Montserrat', sans-serif;
+}
+.subHeading{
+    font-family: 'Montserrat', sans-serif;
+    color: #00b59f;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.serviceHeadSmall{
+    font-size: 21px;
+}
+.iconBox{
+flex: 0 0 70px;
+width: 100px;
+height: 100px;
+position: relative;
+border-radius: 50%;
+background-color:#b8b0b0;
+margin-right: 20px;  
+ margin-bottom: 15px;
+}
+.icon{
+    color: #ffffff;
+display: inline-block;
+position: absolute;
+top: 31%;
+font-size: 40px;
+left: 30%;
+}
+
 
 
 
