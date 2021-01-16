@@ -139,7 +139,7 @@ nav{
 }
 .subHeading1Grey{
    color:  #666666;
-    letter-spacing: 0px;
+    letter-spacing: 1px;
     font-size: 15px;
     text-transform:capitalize;
     font-family: 'Montserrat', sans-serif;
@@ -156,22 +156,113 @@ nav{
     font-size: 21px;
 }
 .iconBox{
-flex: 0 0 70px;
-width: 100px;
-height: 100px;
-position: relative;
-border-radius: 50%;
-background-color:#b8b0b0;
-margin-right: 20px;  
- margin-bottom: 15px;
+  flex: 0 0 70px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  border-radius: 50%;
+  background-color:#b8b0b0;
+  margin-right: 20px;  
+  margin-bottom: 15px;
 }
 .icon{
     color: #ffffff;
-display: inline-block;
-position: absolute;
-top: 31%;
-font-size: 40px;
-left: 30%;
+    display: inline-block;
+    position: absolute;
+    top: 31%;
+    font-size: 40px;
+    left: 30%;
+}
+.backImg{
+    background-image: url(../images/banner1.jpg);
+    padding: 80px 0px;
+    background-size: cover;
+}
+.serviceHeadWhite{
+    color: #ffffff;
+}
+.subHeading1GreyW{
+    color: #ffffff; 
+}
+.sideImg{
+  height: 510px;
+  width: 100%;
+}
+.rightAlign{
+    text-align: end;
+}
+.extraPadding{
+    padding: 60px 0px 30px 10px;
+}
+.iconBoxClr{
+    background-color: #99fff3;
+   
+}
+.iconB{
+     color: #000000;
+}
+.circleImg{
+    height: 70px !important;
+    width: 70px !important;
+    margin-bottom: 30px;
+}
+.Heading1{
+   font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+     font-weight: 500;
+     margin-bottom: 21px;
+     color: #000000;
+}
+.Heading1:hover{
+    color: #666666;
+}
+.marginTop{
+    margin-top: 40px;
+}
+.leftBorder{
+    border-left: 1px solid #00b59f;
+    height: 100%;
+    display: inline-block;
+    padding-left: 10px;
+}
+#demo .carousel-indicators{
+    bottom: -85px;
+}
+.carousel-indicators li{
+    background-color: #00b59f;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+}
+.iconBoxx{
+  color:  #cf9455 !important;
+  margin-top: 30px;
+}
+.iconBoxx .footer-social-icon{
+    color:  #00b59f !important;
+    font-size: 18px;
+    padding: 0px 8px 0px 0px;
+}
+.greyBack1{
+    background-color: #f2f2f2;
+}
+.greyBack12{
+    padding: 20px 0px 30px 0px;
+}
+.blogImg1{
+   height: 240px;
+   width: 100%;
+   margin-bottom: 30px;  
+}
+.blockDisplay{
+    display: block;
+    text-align: center;
+}
+.extraMargin{
+    margin-top: 90px;
+}
+.icon2{
+    left: 25%;
 }
 
 
@@ -192,7 +283,9 @@ left: 30%;
     .bigHeading{
         font-size: 22px !important;
     }
-   
+    .banner{
+        height: 560px !important;
+    }
 
 }
 
@@ -202,6 +295,15 @@ left: 30%;
    
     .banner{
         height: 520px;
+    }
+    .blogImg1{
+        height: auto; 
+     }
+    .mobileMargin{
+        margin-top: -70px;
+    }
+    .bannerSideCnt{
+      display: none;
     }
     
 }
@@ -225,6 +327,9 @@ left: 30%;
     .navLink{
       padding: 0px 7px;     
     }
+     .sideImg{
+        height: 100%;
+    }
    
 }
 
@@ -235,7 +340,9 @@ left: 30%;
  .navLink{
     padding: 0px 7px;     
   }
- 
+   .sideImg{
+        height: 576px;
+    }
     
 }
 
@@ -246,5 +353,8 @@ left: 30%;
 .navLink{
     padding: 0px 14px;     
   }
+   .sideImg{
+        height: 582px;
+    }
  
 }
